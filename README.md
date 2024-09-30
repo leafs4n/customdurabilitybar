@@ -22,6 +22,7 @@ It's best to use the [Mod Menu](https://modrinth.com/mod/modmenu) to access the 
 
 ## Dependencies
 - [owo-lib](https://modrinth.com/mod/owo-lib)
+- [fabric-api](https://modrinth.com/mod/fabric-api)
 
 ## Changing the mod durability bar texture
 You can change the default durability bar texture provided by the mod. To do this, you need to create a resource pack, and place the modified bar texture in it at the following path **yourresourcepack.zip/assets/customdurabilitybar/textures/gui/leaves_background_16x16.png** and choose the setting GREEN_LEAVES in config.
