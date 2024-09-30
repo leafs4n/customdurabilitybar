@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "customdurabilitybar",
+	"version": "${version}",
+	"name": "Custom Durability Bar",
+	"description": "Simple mod that allows you to customise the appearance of the strength scale",
+	"authors": ["leafs4n"],
+	"contact": {
+		"sources": "https://github.com/leafs4n/customdurabilitybar",
+		"issues": "https://github.com/leafs4n/customdurabilitybar/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/customdurabilitybar/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"dev.leafs4n.customdurabilitybar.CustomDurabilityBar"
+		]
+	},
+	"mixins": [
+		"customdurabilitybar.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"owo": ">=0.11.2+1.20"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

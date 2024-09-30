@@ -1,0 +1,16 @@
+{
+  "modmenu.descriptionTranslation.customdurabilitybar": "Простой мод позволяющий настраивать внешний вид шкалы прочности",
+  "text.config.customdurabilitybar.title": "Custom Durability Bar",
+  "text.config.customdurabilitybar.option.durabilityBarType": "Вид шкалы",
+  "text.config.customdurabilitybar.option.durabilityBarType.value.green_leaves": "Зеленая листва",
+  "text.config.customdurabilitybar.option.durabilityBarType.value.colourful_leaves": "Цветная листва",
+  "text.config.customdurabilitybar.option.durabilityBarType.value.default": "Обычная",
+  "text.config.customdurabilitybar.option.durabilityBarType.value.hide": "Скрыта",
+  "text.config.customdurabilitybar.section.AppearanceSection": "Внешний вид",
+  "text.config.customdurabilitybar.section.PositionSection": "Позиция",
+  "text.config.customdurabilitybar.option.xPosition": "Смещение по X",
+  "text.config.customdurabilitybar.option.yPosition": "Смещение по Y",
+  "text.config.customdurabilitybar.option.durabilityBarOrientation": "Ориентация",
+  "text.config.customdurabilitybar.option.durabilityBarOrientation.value.horizontal": "Горизонтальная",
+  "text.config.customdurabilitybar.option.durabilityBarOrientation.value.vertical": "Вертикальная"
+}

@@ -1,0 +1,16 @@
+{
+  "modmenu.descriptionTranslation.customdurabilitybar": "Simple mod that allows you to customise the appearance of the durability bar",
+  "text.config.customdurabilitybar.title": "Custom Durability Bar",
+  "text.config.customdurabilitybar.option.durabilityBarType": "Durability bar type",
+  "text.config.customdurabilitybar.option.durabilityBarType.value.green_leaves": "Green leaves",
+  "text.config.customdurabilitybar.option.durabilityBarType.value.colourful_leaves": "Colourful leaves",
+  "text.config.customdurabilitybar.option.durabilityBarType.value.default": "Default",
+  "text.config.customdurabilitybar.option.durabilityBarType.value.hide": "Hidden",
+  "text.config.customdurabilitybar.section.AppearanceSection": "Appearance",
+  "text.config.customdurabilitybar.section.PositionSection": "Position",
+  "text.config.customdurabilitybar.option.xPosition": "X position",
+  "text.config.customdurabilitybar.option.yPosition": "Y position",
+  "text.config.customdurabilitybar.option.durabilityBarOrientation": "Orientation",
+  "text.config.customdurabilitybar.option.durabilityBarOrientation.value.horizontal": "Horizontal",
+  "text.config.customdurabilitybar.option.durabilityBarOrientation.value.vertical": "Vertical"
+}
