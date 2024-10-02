@@ -31,8 +31,8 @@ public abstract class DurabilityBarRendererMixin {
 
 	// Textures
 	private final Identifier[] DURABILITY_BAR_TEXTURE = new Identifier[]{
-			new Identifier("customdurabilitybar", "textures/gui/leaves_background_16x16.png"),
-			new Identifier("customdurabilitybar", "textures/gui/leaves_colourful_background_16x16.png")
+			Identifier.of("customdurabilitybar", "textures/gui/leaves_background_16x16.png"),
+			Identifier.of("customdurabilitybar", "textures/gui/leaves_colourful_background_16x16.png")
 	};
 
 	/**
@@ -41,7 +41,6 @@ public abstract class DurabilityBarRendererMixin {
 	 */
 	@Overwrite
 	public void drawItemInSlot(TextRenderer textRenderer, ItemStack stack, int x, int y, @Nullable String countOverride){
-
 		ClientPlayerEntity clientPlayerEntity;
 		float f;
 		int l;
@@ -85,7 +84,7 @@ public abstract class DurabilityBarRendererMixin {
 			}
 		}
 
-		float f2 = f = (clientPlayerEntity = this.client.player) == null ? 0.0f : clientPlayerEntity.getItemCooldownManager().getCooldownProgress(stack.getItem(), this.client.getTickDelta());
+		float f2 = f = (clientPlayerEntity = this.client.player) == null ? 0.0f : clientPlayerEntity.getItemCooldownManager().getCooldownProgress(stack.getItem(), this.client.getRenderTickCounter().getTickDelta(true));
 		if (f > 0.0f) {
 			k = y + MathHelper.floor(16.0f * (1.0f - f));
 			l = k + MathHelper.ceil(16.0f * f);
